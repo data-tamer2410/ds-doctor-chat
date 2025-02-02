@@ -1,4 +1,4 @@
-# Doctor Chat – AI Assistant for Medical Consultations
+# [Doctor Chat](https://doctor-chat-mty8.onrender.com) – AI Assistant for Medical Consultations
 Doctor Chat is an AI chatbot for medical advice, powered by GPT-2 and deployed with Streamlit and Docker.
 
 ## Description 
