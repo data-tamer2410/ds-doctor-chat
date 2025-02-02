@@ -2,14 +2,14 @@
 Doctor Chat is an AI chatbot for medical advice, powered by GPT-2 and deployed with Streamlit and Docker.
 
 ## Description 
-Doctor Chat is an AI-powered chatbot designed to provide medical advice and recommendations. The bot uses a fine-tuned GPT-2 model trained on structured medical dialogues to generate accurate responses in a patient-doctor format.  
+Doctor Chat is an AI-powered chatbot designed to provide medical advice and recommendations. It uses a fine-tuned GPT-2 model to generate responses in a structured dialogue format between the patient and a virtual doctor. The project includes a Streamlit web application deployed on a server for easy access.
 
 ## Features
-- 🔹 **Medical AI Consultant** – analyzes symptoms, suggests possible diagnoses, and recommends medical tests.  
-- 🔹 **Fine-tuned GPT-2 model** – trained on structured medical conversations to enhance response accuracy.  
-- 🔹 **Uses special tokens** `[|Human|]` and `[|AI|]` – to maintain structured dialogue.  
-- 🔹 **Streamlit Web App** – provides a user-friendly interface for real-time interaction.  
-- 🔹 **Docker Deployment** – ensures stable performance on a server.  
+-  **Medical AI Consultant** – analyzes symptoms, suggests possible diagnoses, and recommends medical tests.  
+-  **Fine-tuned GPT-2 model** – trained on structured medical conversations to enhance response accuracy.  
+-  **Uses special tokens** `[|Human|]` and `[|AI|]` – to maintain structured dialogue.  
+-  **Streamlit Web App** – provides a user-friendly interface for real-time interaction.  
+-  **Docker Deployment** – ensures stable performance on a server.  
 
 ## Technologies
 - **Text Modeling**: GPT-2, Hugging Face Transformers  
