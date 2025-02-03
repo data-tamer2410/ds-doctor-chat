@@ -11,7 +11,6 @@ Unfortunately, this is a learning project without funding, so it is hosted on a 
 -  **Fine-tuned GPT-2 model** – trained on structured medical conversations to enhance response accuracy.  
 -  **Uses special tokens** `[|Human|]` and `[|AI|]` – to maintain structured dialogue.  
 -  **Streamlit Web App** – provides a user-friendly interface for real-time interaction.  
--  **Docker Deployment** – ensures stable performance on a server.  
 
 ## Technologies
 - **Text Modeling**: GPT-2, Hugging Face Transformers  
