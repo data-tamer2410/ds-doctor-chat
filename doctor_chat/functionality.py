@@ -46,8 +46,7 @@ def generate_response(input_ids: dict, model, tokenizer) -> str:
             tokenizer.additional_special_tokens_id[1],
         ],
         do_sample=True,
-        temperature=0.5,
-        top_k=15,
+        top_p=0.9,
         repetition_penalty=1.2,
     )
     response = tokenizer.decode(response[0, :-1]).split("[|AI|]")[-1].strip()
